@@ -19,11 +19,12 @@ ul{
 
 .button_1{
   height:38px;
-  background:#e8491d;
-  border:0;
+  background:#286e83;
+  border-radius:10px;
   padding-left: 20px;
   padding-right:20px;
   color:#ffffff;
+  font-size: 17px;
 }
 
 .dark{
@@ -82,19 +83,26 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background:url('../img/s.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
 
 #showcase h1{
   margin-top:100px;
-  font-size:55px;
   margin-bottom:10px;
+  font-family: 'Gelasio';
+  font-size: 60px; 
+  color: #0bc0c0;
+}
+
+color{
+  color:rgb(222, 234, 245);
 }
 
 #showcase p{
-  font-size:20px;
+  font-family: 'Lora'; 
+  font-size: 24px;
 }
 
 /* Newsletter */
@@ -107,6 +115,8 @@ header a:hover{
 #newsletter h1{
   float:left;
   position: 50px;
+  font-family: 'Arvo';
+  font-size: 25px;
 }
 
 #newsletter form {
@@ -120,6 +130,7 @@ header a:hover{
   padding:4px;
   height:30px;
   width:250px;
+  font-size: 17px;
 }
 
 /* Boxes */
